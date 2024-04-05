@@ -1,0 +1,82 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0; /*Setting the margin and padding to 0 ensures no horizontal scrollbar or vertical appears unneccessarily */
+}
+.container{
+    background-color: #e2e9ec;
+}
+.h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 235px;
+}
+.img-section{
+    width: 100%;
+        height: 500px; 
+        background-image: url('/imgs/rome-bg.jpg'); /* path to image, image obtained from : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futurelearn.com%2Finfo%2Fblog%2Fexplore-a-virtual-map-of-ancient-rome&psig=AOvVaw0WXYnYyY2-ebA_l18oS7aG&ust=1711282309852000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCIjmxsutioUDFQAAAAAdAAAAABAE*/
+        background-size: cover; /* Adjust the size of the background image to cover the div img-section */
+        background-position: center; 
+}
+.inner-section{
+    position: absolute;
+        width: 100%;
+        height: 90%;
+        background-color: rgba(255, 255, 255, 0.4); /* This will make only the background image semi-transparent, not the text */
+}
+.container1, .block2{ /* Instead of re-writing css for same layout repeatedly, simply write it in one block for all */
+    max-width: 858px;
+    margin: auto;
+    display: flex;
+}
+.container5{
+    max-width: 858px;
+    margin: auto;
+    display: grid;
+}
+.div1{
+    text-align: center;
+}
+.p1, .head1{
+    line-height: 30px;
+}
+.left-block{
+    width: 60%;
+    text-align: justify;
+}
+.right-block{
+    width: 40%;
+    padding-left: 53px;  
+
+}
+.right-block img{
+    width: 445px;
+    height: 385px;
+    border: solid 1px black;
+}
+.container2, .container3, .container4{
+   display: grid;
+   margin: auto;
+   max-width: 858px;
+   text-align: justify;
+}
+.container2 img{
+    width: 858px;
+    height: 500px;
+}
+.right-block1{
+    width: 40%;
+    padding-left: 53px;  
+
+}
+.right-block1 img{
+    width: 335px;
+    height: 235px;
+}
+
+.block-a{
+    display: grid;
+    margin: auto;
+   max-width: 858px;
+   text-align: justify;
+}
